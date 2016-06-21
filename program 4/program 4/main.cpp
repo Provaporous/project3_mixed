@@ -38,11 +38,13 @@ int main(void)
 			break;
 		case ('M'):cout << "m chosen";
 			break;
-		default :
+		case ('X'):cout << "Closing Store\n";
+			break;
+		default:cout << "Invalid menu entry, try again.";
 			break;
 
 		}
 	} while (toupper(command) != 'X');
-
+	
 	return 0;
 }

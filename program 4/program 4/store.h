@@ -16,7 +16,7 @@ private:
 	int maxSize,								//max entries
 		currentSize;							//current entries
 	Book * bookList;							//pointer to book array
-
+	void Grow();								// Increase max size
 
 
 
