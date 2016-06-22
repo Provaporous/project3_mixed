@@ -69,5 +69,5 @@ void Book::Display() const			// described below
 			cout << setw(11) << "Computer";
 			break;
 	}
-		cout<<setprecision(2) << fixed <<'$'<<right<< setw(7)<< price;
+		cout<<setprecision(2) << fixed <<'$'<<right<< setw(7)<< price<<endl;
 }
